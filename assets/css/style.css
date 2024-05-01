@@ -666,6 +666,9 @@ img {
 }
 
 /* contact================================================================== */
+.contact {
+  margin-top: 80px;
+}
 .contact-tab {
   margin: 7cap 0px;
   display: grid;
