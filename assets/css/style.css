@@ -403,18 +403,18 @@ img {
 }
 
 .service-insight__lighting {
-  display: flex;
-  justify-content: space-between;
   margin: 100px 0px;
   column-gap: 20px;
+  position: relative;
 }
 
 .service-insight__lighting--img {
-  width: 100%;
-  object-fit: cover;
+  width: 50%;
+  margin-left: auto;
 }
 
 .service-insight__lighting--top {
+  position: absolute;
   width: 500px;
   font-size: 1.4rem;
   font-weight: 300;
@@ -422,20 +422,22 @@ img {
 }
 
 .service-insight__lighting--bottom {
+  position: absolute;
+  bottom: 0px;
   width: 500px;
   font-size: 1.4rem;
   font-weight: 300;
   line-height: 1.75;
-  margin-top: 450px;
   font-style: italic;
 }
 
 .service-insight__lighting--bottom2 {
+  position: absolute;
+  bottom: 0px;
   width: 500px;
   font-size: 1.4rem;
   font-weight: 300;
   line-height: 1.75;
-  margin-top: 380px;
   font-style: italic;
 }
 
@@ -451,7 +453,7 @@ img {
 .service-3d__img {
   padding-top: 50px;
   width: 50%;
-  margin: 0 0 0 auto;
+  margin-left: auto;
 }
 
 /* Web */
@@ -463,10 +465,10 @@ img {
   line-height: 1.75;
 }
 
-.service-web--img {
+.service-web__img {
   padding: 30px 0px 100px;
   width: 50%;
-  margin: 0 0 0 auto;
+  margin-left: auto;
 }
 
 /* Data Mining */

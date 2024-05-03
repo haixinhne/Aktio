@@ -1,0 +1,245 @@
+/* PC */
+@media (min-width: 992px) {
+  .header-menu {
+    display: none;
+  }
+
+  .menu-close {
+    display: none;
+  }
+
+  .mobile-header {
+    display: none;
+  }
+}
+
+/* tablet và mobile */
+@media (max-width: 991.98px) {
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* mobile */
+/* Phần tiêu đề và thanh menu */
+@media (max-width: 767.98px) {
+  .logo-iscape {
+    width: 100px;
+  }
+
+  .header__iscape {
+    display: none;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .header-top {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+  }
+
+  .header-menu {
+    width: 20px;
+    color: var(--desc);
+  }
+
+  .menu-overlay {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    inset: 0px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+  }
+
+  .menu-checkbox:checked ~ .menu-overlay {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .menu-drawer {
+    position: fixed;
+    background-color: var(--header-bg);
+    inset: 0 0 0 30%;
+    transform: translateX(100%);
+    transition: 1s;
+    padding: 50px 20px 50px 20px;
+  }
+
+  .menu-checkbox:checked ~ .menu-drawer {
+    transform: translateX(0%);
+  }
+
+  /* nav mobile */
+  .menu-close {
+    width: 16px;
+    color: var(--desc);
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    transform: translateY(-50%);
+  }
+
+  .navbar__link {
+    display: block;
+  }
+
+  .navbar__link:hover {
+    background-color: rgba(186, 186, 186, 0.5);
+    border: none;
+  }
+
+  /* Phần Home */
+  .header__desc {
+    display: none;
+  }
+
+  /* Phần Service */
+  .header-bg__social {
+    display: none;
+  }
+
+  .service__heading {
+    font-size: 2rem;
+  }
+
+  .service__nav--list {
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+  }
+
+  .service__nav--item {
+    font-size: 1.6rem;
+  }
+
+  .service__bim--1 {
+    margin: 50px 0px;
+  }
+
+  .service-arc {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .service__desc--arc {
+    margin-top: 20px;
+    width: 100%;
+    order: 1;
+  }
+
+  .service__img {
+    width: 100%;
+  }
+
+  .service-process::after {
+    border: none;
+  }
+
+  .service-process__img {
+    width: 100%;
+    border: none;
+    border-radius: 0px;
+    margin-top: 20px;
+  }
+
+  .service-process__list {
+    display: block;
+    margin: 0px;
+    position: static;
+  }
+
+  .service-process {
+    margin: 50px 0px;
+    position: static;
+  }
+
+  .service__title--more {
+    margin-top: 0px;
+  }
+
+  .service__bim--2 {
+    width: 100%;
+    margin: 50px 0px;
+  }
+
+  .service-insight__process--img1 {
+    width: 100%;
+  }
+
+  .service-insight__process {
+    display: block;
+    margin: 20px 0px;
+  }
+
+  .service-insight__process--desc {
+    width: 100%;
+  }
+
+  .service-insight__process--list {
+    display: none;
+  }
+
+  .service-insight__process--tab {
+    display: block;
+  }
+
+  .service__desc--tab {
+    margin: 20px 0px;
+    text-align: center;
+  }
+
+  .service-insight__lighting {
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .service-insight__lighting--top {
+    width: 100%;
+  }
+
+  .service-insight__lighting--bottom {
+    margin: 20px 0px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .service-insight__lighting--bottom2 {
+    margin: 20px 0px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .service-insight__lighting--img {
+    order: 2;
+  }
+
+  .service-insight__lighting--top {
+    position: static;
+  }
+
+  .service-insight__lighting--bottom {
+    position: static;
+  }
+
+  .service-insight__lighting--bottom2 {
+    position: static;
+  }
+  .service-3d__img {
+    padding: 0px;
+    width: 100%;
+    margin: 20px 0px 50px 0px;
+  }
+
+  .service-web__img {
+    padding: 0px;
+    width: 100%;
+    margin: 20px 0px 50px 0px;
+  }
+}
