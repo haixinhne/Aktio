@@ -255,17 +255,30 @@
   }
 
   .about__desc {
-    width: 300px;
+    margin-left: 85px;
+    padding: 20px;
+    font-size: 1.3rem;
+    position: static;
+    width: calc(100% - 85px);
     height: 300px;
     overflow: hidden;
   }
 
   .about-member {
     margin-top: 50px;
+    position: static;
+  }
+
+  .about__name {
+    margin-left: 110px;
+    position: static;
   }
 
   .about__uni {
-    width: 263px;
+    font-size: 1.3rem;
+    width: 230px;
+    margin-left: 110px;
+    position: static;
   }
 
   .about-bottom__title--lophoc {
@@ -292,6 +305,7 @@
   }
 
   .about-bottom__desc {
+    font-size: 1.3rem;
     margin: 50px 0px 20px 0px;
     order: 1;
     height: 300px;
@@ -385,5 +399,10 @@
 
   .contact-button {
     width: 100%;
+  }
+
+  /* footer */
+  .service-footer__top {
+    font-size: 1.3rem;
   }
 }
