@@ -380,7 +380,7 @@
   }
 
   .contact-form__mess {
-    width: 360px;
+    width: 100%;
   }
 
   .contact-button {
