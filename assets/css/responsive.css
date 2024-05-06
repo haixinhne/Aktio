@@ -88,6 +88,7 @@
 
   .navbar__link {
     display: block;
+    transition: 0.5s;
   }
 
   .navbar__link:hover {
