@@ -242,4 +242,148 @@
     width: 100%;
     margin: 20px 0px 50px 0px;
   }
+
+  /* Phần About */
+  .about-img {
+    width: 100%;
+    left: 0px;
+  }
+
+  .about-top {
+    display: block;
+    margin: 50px 0px;
+  }
+
+  .about__desc {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+  }
+
+  .about-member {
+    margin-top: 50px;
+  }
+
+  .about__uni {
+    width: 263px;
+  }
+
+  .about-bottom__title--lophoc {
+    position: relative;
+    left: -24px;
+    justify-content: start;
+    width: 100vw;
+    border-bottom: 2px solid var(--line);
+    border-top: 2px solid var(--line);
+    background-color: var(--header-bg);
+  }
+
+  .about__title--cap {
+    margin-left: 24px;
+    color: var(--desc);
+  }
+
+  .about-bottom__title--lophoc::before {
+    content: none;
+  }
+
+  .about-bottom__lophoc {
+    flex-direction: column;
+  }
+
+  .about-bottom__desc {
+    margin: 50px 0px 20px 0px;
+    order: 1;
+    height: 300px;
+  }
+
+  .about-bottom__img {
+    width: 100%;
+    order: 2;
+  }
+
+  .about-bottom__title--dangoai {
+    position: relative;
+    left: -24px;
+    justify-content: start;
+    width: 100vw;
+    border-bottom: 2px solid var(--line);
+    border-top: 2px solid var(--line);
+    background-color: var(--header-bg);
+  }
+
+  .about-bottom__title--dangoai::before {
+    content: none;
+  }
+
+  /* Contact */
+  .contact {
+    margin: 0px;
+  }
+
+  .contact-tab {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .contact-add {
+    order: 1;
+  }
+
+  .contact-phone {
+    order: 2;
+  }
+
+  .contact-mail {
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: var(--desc);
+    order: 3;
+  }
+
+  .contact-map {
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: var(--desc);
+    order: 4;
+  }
+
+  .contact-iscape {
+    order: 5;
+  }
+
+  .contact-add__img {
+    transform: scale(3);
+  }
+
+  .contact-information {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .contact-iscape {
+    margin: 0px 10px;
+    border: none;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-input {
+    width: 240px;
+  }
+
+  .contact-input__mess {
+    width: 100%;
+  }
+
+  .contact-form__mess {
+    width: 360px;
+  }
+
+  .contact-button {
+    width: 100%;
+  }
 }

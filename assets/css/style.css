@@ -596,7 +596,7 @@ img {
 .about-bottom__title--lophoc {
   width: 250px;
   height: 75px;
-  background-color: var(--desc);
+  background-color: var(--line);
   margin-left: auto;
   position: relative;
   display: flex;
@@ -608,7 +608,7 @@ img {
   margin-top: 50px;
   width: 250px;
   height: 75px;
-  background-color: var(--desc);
+  background-color: var(--line);
   margin-right: auto;
   position: relative;
   display: flex;
@@ -620,7 +620,7 @@ img {
   font-size: 2.2rem;
   font-weight: 500;
   line-height: 1.5;
-  color: var(--header-bg);
+  color: #fff;
 }
 
 .about-bottom__title--lophoc::before {
@@ -629,7 +629,7 @@ img {
   width: 1170px;
   max-width: calc(100vw - 48px);
   height: 1px;
-  background-color: var(--desc);
+  background-color: var(--line);
   right: 0px;
   top: 0px;
 }
@@ -640,7 +640,7 @@ img {
   width: 1170px;
   max-width: calc(100vw - 48px);
   height: 1px;
-  background-color: var(--desc);
+  background-color: var(--line);
   left: 0px;
   top: 0px;
 }
