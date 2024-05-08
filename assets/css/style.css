@@ -33,7 +33,7 @@ button {
 }
 
 .container {
-  width: 430px;
+  width: 390px;
   max-width: calc(100% - 32px);
   margin: 0px auto;
 }
@@ -47,7 +47,7 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 430px;
+  width: 390px;
   height: 60px;
   background-color: var(--header-bg);
 }
@@ -193,7 +193,7 @@ button {
 }
 .watt-bottom__item {
   display: flex;
-  column-gap: 20px;
+  column-gap: 12px;
   margin: 10px 0px;
 }
 
@@ -244,8 +244,8 @@ button {
 .price {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  width: 430px;
+  align-items: baseline;
+  width: 390px;
   height: 80px;
   background-color: var(--title);
   border: 2px solid orange;
@@ -266,7 +266,7 @@ button {
 }
 
 .price-one {
-  width: 70px;
+  width: 60px;
   font-weight: 300;
   line-height: 1.75;
   font-size: 2rem;
@@ -276,6 +276,7 @@ button {
 }
 
 .price-list {
+  margin: auto 0px;
   display: flex;
   align-items: baseline;
 }
@@ -302,12 +303,17 @@ button {
   color: red;
 }
 
+.price-x {
+  transform: translateY(40%);
+  height: 12px;
+}
+
 /* footer */
 .footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 430px;
+  width: 390px;
   height: 62px;
   background-color: var(--border);
   position: fixed;
