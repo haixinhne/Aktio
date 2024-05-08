@@ -3,114 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Thêm favicon -->
-    <link
-      rel="apple-touch-icon"
-      sizes="57x57"
-      href="./assets/favicon/apple-icon-57x57.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="60x60"
-      href="./assets/favicon//apple-icon-60x60.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="72x72"
-      href="./assets/favicon//apple-icon-72x72.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="76x76"
-      href="./assets/favicon//apple-icon-76x76.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="114x114"
-      href="./assets/favicon//apple-icon-114x114.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="120x120"
-      href="./assets/favicon//apple-icon-120x120.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="144x144"
-      href="./assets/favicon//apple-icon-144x144.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="152x152"
-      href="./assets/favicon//apple-icon-152x152.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./assets/favicon//apple-icon-180x180.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="192x192"
-      href="./assets/favicon//android-icon-192x192.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/favicon//favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="96x96"
-      href="./assets/favicon//favicon-96x96.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./assets/favicon//favicon-16x16.png"
-    />
-    <link rel="manifest" href="/manifest.json" />
-    <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta
-      name="msapplication-TileImage"
-      content="./assets/favicon/ms-icon-144x144.png"
-    />
-    <meta name="theme-color" content="#ffffff" />
-
     <!-- font -->
     <link rel="stylesheet" href="./assets/font/Meiryo UI W53 Regular.ttf" />
-
-    <!-- link font-awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-
     <!-- reset -->
     <link rel="stylesheet" href="./assets/css/reset.css" />
-
     <!-- link style -->
     <link rel="stylesheet" href="./assets/css/style.css" />
-
     <title>Aktio</title>
   </head>
   <body>
-    <main class="service">
+    <main>
       <!-- Header -->
       <div class="header-top">
         <h1 class="header-top__title">三益KD-1棟作業所専⽤Aktio注⽂ページ</h1>
         <p class="header-top__desc">Powered by iScape</p>
       </div>
       <!-- breadcrumb -->
-      <div class="breadcrumb">
-        <div class="container">
+      <div class="container">
+        <div class="breadcrumb">
           <ul class="breadcrumb-list">
             <li class="breadcrumb-item">
               <a class="breadcrumb-link" href="#!">ホーム</a>
@@ -322,34 +232,49 @@
           </article>
         </div>
       </section>
+      <!-- price -->
+      <div class="price">
+        <div class="price-list">
+          <h3 class="price-title">単価</h3>
+          <h3 class="price-currency__small">&#165;</h3>
+          <input type="text" class="price-one" value="4500" />
+        </div>
+        <div class="price-list">
+          <h3 class="price-title">個数</h3>
+          <input type="text" class="price-one" value="10" />
+        </div>
+        <div class="price-list">
+          <h3 class="price-title">合計</h3>
+          <h3 class="price-currency__lage">&#165;</h3>
+          <input type="text" class="price-total" value="45000" />
+        </div>
+      </div>
     </main>
     <!-- footer -->
     <footer>
       <div class="footer">
-        <div class="container">
-          <ul class="navbar">
-            <li class="navbar-item">
-              <a href="#!" class="navbar-link">
-                <img src="./assets/img/aktio_4.svg" alt="" />
-              </a>
-            </li>
-            <li class="navbar-item">
-              <a href="#!" class="navbar-link">
-                <img src="./assets/img/aktio_2.svg" alt="" />
-              </a>
-            </li>
-            <li class="navbar-item">
-              <a href="#!" class="navbar-link">
-                <img src="./assets/img/aktio_3.svg" alt="" />
-              </a>
-            </li>
-            <li class="navbar-item">
-              <a href="#!" class="navbar-link">
-                <img src="./assets/img/aktio_5.svg" alt="" />
-              </a>
-            </li>
-          </ul>
-        </div class="container">
+        <ul class="navbar">
+          <li class="navbar-item">
+            <a href="#!" class="navbar-link">
+              <img src="./assets/img/aktio_4.svg" alt="" />
+            </a>
+          </li>
+          <li class="navbar-item">
+            <a href="#!" class="navbar-link">
+              <img src="./assets/img/aktio_2.svg" alt="" />
+            </a>
+          </li>
+          <li class="navbar-item">
+            <a href="#!" class="navbar-link">
+              <img src="./assets/img/aktio_3.svg" alt="" />
+            </a>
+          </li>
+          <li class="navbar-item">
+            <a href="#!" class="navbar-link">
+              <img src="./assets/img/aktio_5.svg" alt="" />
+            </a>
+          </li>
+        </ul>
       </div>
     </footer>
   </body>
