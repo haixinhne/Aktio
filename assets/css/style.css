@@ -71,7 +71,8 @@ button {
 
 /* breadcrumb */
 .breadcrumb {
-  padding-bottom: 20px;
+  width: 100%;
+  padding-bottom: 20px 16px;
   border-bottom: 1px solid var(--border);
 }
 
@@ -170,6 +171,10 @@ button {
   cursor: pointer;
 }
 
+.content-question:hover {
+  color: red;
+}
+
 .content-mid__desc {
   padding: 6px;
   margin: 10px 0px;
@@ -192,6 +197,10 @@ button {
   position: absolute;
   top: 10px;
   right: 10px;
+}
+
+.content-x:hover {
+  color: red;
 }
 
 .content-checkbox:checked ~ .content-mid__desc {
