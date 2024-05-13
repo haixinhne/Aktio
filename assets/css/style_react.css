@@ -1,17 +1,4 @@
 /* all */
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-size: 1.4rem;
-  font-family: "Meiryo UI", sans-serif;
-  color: var(--desc);
-}
 
 :root {
   --header-bg: #1c3c86;
@@ -26,6 +13,15 @@ select,
 button {
   font-family: inherit;
   font-size: inherit;
+}
+
+.main,
+.footer_mobile {
+  font-size: 1.4rem;
+  font-family: "Meiryo UI", sans-serif;
+  color: var(--desc);
+  font-size: 62.5%;
+  box-sizing: border-box;
 }
 
 .container {
